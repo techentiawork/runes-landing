@@ -220,16 +220,16 @@ function Home() {
             heading: "Taproot Wizards",
             desc: "Early pioneers in the Ordinals space, offering culturally and financially significant digital assets."
         },
-        {
-            icon: gl8,
-            heading: "DOG•GO•TO•THE•MOON",
-            desc: "Wanna see a bitcoin dog go to the moon? This is the dog to do it!"
-        },
-        {
-            icon: gl9,
-            heading: "Liquidium",
-            desc: "Liquidium is how you borrow or lend BTC."
-        },
+        // {
+        //     icon: gl8,
+        //     heading: "DOG•GO•TO•THE•MOON",
+        //     desc: "Wanna see a bitcoin dog go to the moon? This is the dog to do it!"
+        // },
+        // {
+        //     icon: gl9,
+        //     heading: "Liquidium",
+        //     desc: "Liquidium is how you borrow or lend BTC."
+        // },
     ], [
         {
             icon: gr1,
@@ -308,7 +308,7 @@ function Home() {
     return (
         <div className="w-full bg-[#FCFCFC] overflow-x-hidden" ref={mainRef}>
             <div className="lg:px-16 lg:py-7 py-4 md:px-8 px-4 w-full  bg-[#FCFCFC]">
-                <div className="w-full flex justify-center h-[376.8px] sm:h-[295.25px] lg:h-[373.2px] ">
+                <div className="w-full flex justify-center h-[406.8px] sm:h-[375.25px] lg:h-[433.2px] ">
                     <div className="w-[668px] max-w-full flex-col flex items-center gap-4">
                         <div className=" pt-4 sm:border-t-[1px] border-[rgba(0,0,0,0.04)] w-[422px] max-w-full flex justify-center">
                             <div className="w-[154.28px] max-w-full h-[30px] bg-[#fcfcfc] flex justify-center items-center rounded-[100px] shadow border border-[#dadada]">
@@ -320,11 +320,12 @@ function Home() {
 
                                 <div className="text-black lg:text-[48px] md:text-[36px] text-[27px] xl:text-[64px] font-normal font-['Bricolage Grotesque'] ">RunesBridge </div>
                                 <div className="lg:w-[79.56px] w-[54px] relative h-[61.31px] lg:h-[90.35px]">
-                                <img className="w-full h-full" src={logol} />
+                                    <img className="w-full h-full" src={logol} />
                                 </div>
                             </div>
                             <div className="flex-col justify-start items-center gap-4 inline-flex">
-                                <div className="text-center text-[#444444] md:text-[15px] text-[12px] lg:text-lg font-normal font-['Inter'] md:w-full w-[296px] leading-relaxed py-3 lg:py-4 border-b-[1px] border-[rgba(0,0,0,0.08)]">A fork of RunesBridge, RunesBridge-V is a decentralized platform including a bridge layer built to unlock liquidity and community through interoperability between blockchains.</div>
+                                <div className="text-center text-[#444444] md:text-[15px] text-[12px] lg:text-lg font-normal font-['Inter'] md:w-full w-[296px] leading-relaxed py-3 lg:py-4 border-b-[1px] border-[rgba(0,0,0,0.08)]">The project follows the title character and protagonist, V, an anarchist revolutionary dressed in a Guy Fawkes mask, as he begins an elaborate and theatrical revolutionist campaign to kill his former captors, bring down the fascist state, and convince the people to abandon fascism. RunesBridge is dead, long live RunesBridge-V
+                                </div>
                                 <div className="justify-start items-center gap-4 flex xxs:flex-row flex-col">
                                     <div className="wallet-btn cursor-pointer">Buy now</div>
                                     <div className="px-6 py-3.5 cursor-pointer bg-white rounded-[10px] border border-[#cccccc] justify-center items-center gap-2.5 flex">
@@ -349,7 +350,7 @@ function Home() {
             <div className="partners w-[1440px] xl:w-full max-w-full bg-white flex justify-center lg:py-[96px] py-[44px] xl:py-[60px]">
                 <div className="w-[712px] max-w-full px-4 md:bloc hidden">
                     <div className="text-center text-[#111111] text-sm font-normal font-['Inter'] uppercase leading-[21px] tracking-widest">Decentralized Governance</div>
-                    <div className="w-[656px] max-w-full text-center text-[#1f1f1f] text-xl font-normal font-['Inter']">We facilitate simple, seamless cross-chain interactions for digital asset management. RunesBridgeV promotes security, integrity, and cost-effectiveness through robust institutionalization and an innovative decentralized architecture.</div>
+                    <div className="w-[656px] max-w-full text-center text-[#1f1f1f] text-xl font-normal font-['Inter']">The mission of RBV is to find the best and most attractive projects that we feel contribute positively to the space and help them launch with best practices to ensure rapid and secure growth after launch.</div>
                 </div>
                 <div className="md:hidde flex flex-col gap-5 w-full">
                     <div className="text-center text-[#111111] text-xs font-normal font-['Inter'] uppercase leading-[21px] tracking-wide">Trusted by our incredible partners</div>
@@ -368,7 +369,7 @@ function Home() {
                     <div><span className="text-[#ff0025] md:text-[28px] text-[24px] lg:text-[32px] font-extrabold font-['Bricolage Grotesque']">.</span><span className="text-[#444444] md:text-[28px] text-[24px] lg:text-[32px] font-normal font-['Bricolage Grotesque']">Level up</span></div>
                 </div>
                 <div className="discover w-[1173px] max-w-full">
-                    <div className="w-[682px] max-w-full text-[#232323] xl:text-[80px]  lg:text-[55px] md:text-[40px] text-[28px] font-semibold font-['Bricolage Grotesque'] md:block hidden tracking-[3.20px] leading-[1.1]">Discover a new connection.</div>
+                    <div className="w-[682px] max-w-full text-[#232323] xl:text-[80px]  lg:text-[55px] md:text-[40px] text-[28px] font-semibold font-['Bricolage Grotesque'] md:block hidden tracking-[3.20px] leading-[1.1]">Connect with V</div>
                     <div className="w-[682px] max-w-full text-[#232323] xl:text-[80px]  lg:text-[55px] md:text-[40px] text-[28px] font-semibold font-['Bricolage Grotesque'] md:hidden block md:tracking-[2px] tracking-[1.12px] xl:tracking-[3.20px] leading-[1.1]">Take advantage of every chance on the chain</div>
                 </div>
             </div>
@@ -381,7 +382,9 @@ function Home() {
                 </div>
                 <div className=" max-w-full flex justify-end">
                     <div className="md:w-[421px] sm:w-[320px] xss:w-[250px] w-[200px] max-w-full">
-                        <div className="runes-right w-[421px] max-w-full"><span className="text-[#bcbcbc] lg:text-[26px] md:text-[20px] text-[14px] sm:text-[18px] xl:text-[32px] font-normal font-['Inter']">The RunesBridge-V project is pioneering the integration of Ethereum and Bitcoin, Expanding the importance of interoperability in blockchain technology. </span><span className="text-[#1a1a1a] lg:text-[26px] md:text-[20px] text-[14px] sm:text-[18px] xl:text-[32px] font-bold font-['Inter']">By bridging {"Ethereum's"} smart contract capabilities with {"Bitcoin's"} security, RunesBridge-V aims to set and grow a new standard for hybrid or dual launch projects.</span><span className="text-[#bcbcbc] lg:text-[26px] md:text-[20px] text-[14px] sm:text-[18px] xl:text-[32px] font-normal font-['Inter']"> This infrastructure solidifies a commitment to uniting the two most important blockchain ecosystems with a decentralized bridge layer while carefully selecting and supporting projects to promote responsible growth in the crypto space.</span></div>
+                        <div className="runes-right w-[421px] max-w-full"><span className="text-[#bcbcbc] lg:text-[26px] md:text-[20px] text-[14px] sm:text-[18px] xl:text-[32px] font-normal font-['Inter']">In the context of a utility project, a treasury is vital for funding growth, development and otherwise catalyzing contributions to the project. However, managing and securing that treasury poses a significant challenge, as community concerns often centre around the potential for mismanagement. The solution to this challenge is RBV Governance (RBVG), a decentralized governance framework designed to safeguard assets and ensure that community interests are protected. By decentralizing control and distributing decision-making power, RBVG provides the security and transparency necessary to maintain trust within the community.
+                        </span><span className="text-[#1a1a1a] lg:text-[26px] md:text-[20px] text-[14px] sm:text-[18px] xl:text-[32px] font-bold font-['Inter']">Incubator Support: Projects that onboard to RunesBridge-V will receive incubator support, including access to bridge infrastructure, liquidity management tools, and community airdrop facilitation. This will help bootstrap liquidity and user engagement from day one.</span><span className="text-[#bcbcbc] lg:text-[26px] md:text-[20px] text-[14px] sm:text-[18px] xl:text-[32px] font-normal font-['Inter']">Projects launched under the RBV banner, “Powered by RunesBridge-V” get many benefits including the support from the RBV community and unlimited access to RBV white label products. The RBV community in turn receive tokens airdropped to their wallets on a tiered basis and staggered over time to ensure fairness and maximum fun. Having tokens of RBV or any project “Powered by RunesBridge-V” allows you in the door to governance and participation not only in RBV but anywhere within the whole RBV ecosystem.
+                            </span></div>
                     </div>
                 </div>
             </div>
@@ -389,7 +392,13 @@ function Home() {
                 <div className="flex-col justify-start items-start gap-[156px] inline-flex w-full">
                     <div className="runes-left sm:w-[636px] md:w-full xs:w-full w-[291px] max-w-full flex flex-col gap-4">
                         <div className="w-[686px] max-w-full text-[#232323] lg:text-[48px] md:text-[36px] sm:text-[30px] text-[24px] xl:text-6xl font-semibold font-['Bricolage Grotesque'] tracking-[0.96px] md:tracking-widest">Powerful and Solid Bridging Mechanism</div>
-                        <div className="w-[636px] max-w-full text-[#bcbcbc] lg:text-[26px] md:text-[20px] text-[14px] sm:text-[18px] xl:text-[32px] font-normal font-['Inter']">We facilitate simple, seamless cross-chain interactions for digital asset management. RunesBridgeV promotes security, integrity, and cost-effectiveness through robust institutionalization and an innovative decentralized architecture.</div>
+                        <div className="w-[636px] max-w-full text-[#bcbcbc] lg:text-[26px] md:text-[20px] text-[14px] sm:text-[18px] xl:text-[32px] font-normal font-['Inter']">
+                            <p>RunesBridge-V’s Dual-Chain Tokenomics Framework will offer a comprehensive protocol for launching and managing dual-chain tokens, creating an interoperable token economy that maximizes liquidity, community engagement, distribution and security.
+                            </p>
+                            <p>RunesBridge-V also boasts “V-Governance” which delivers a decentralized, transparent, and efficient governance framework. Governance is the elixir of life, it is how a project can become immortal and how a degen knows he is safe. Governance rewards active participation, aligns project development with community interests. Governance tells you where the keys are and welcomes you to peak behind the curtain.
+                            </p>       <p>V says welcome home.</p>
+                            <p>Get ready for a world powered by RunesBridge-V</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -551,7 +560,7 @@ function Home() {
                                     <Lottie animationData={govt} loop={true} />
                                 </div>
 
-                                
+
                             </div>
                         </div>
                         <div className="hbc flex justify-between w-full md:px-16 px-4 lg:px-[120px] min-h-[158px] lg:min-h-[560px] items-center rounded-[20px] bg-[#F9FAF9] py-4 lg:order-1">
