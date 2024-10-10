@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import { anim1, anim2, anim3, anism1, anism2, anism3, anism4, bitcoin, co1, co2, co3, co4, co5, comp1, comp2, comp3, comp4, comp5, comp6, drone, drone2, evm, gl1, gl2, gl3, gl4, gl5, gl6, gl7, gl8, gl9, gr1, gr2, gr3, gr4, gr5, gr6, herow, l2, leadingline, logol, runes, solana, zetachain } from "../assets";
+import { anim1, anim2, anim3, anism1, anism2, anism3, anism4, bitcoin, co1, co2, co3, co4, co5, comp1, comp2, comp3, comp4, comp5, comp6, drone, drone2, evm, gl1, gl2, gl3, gl4, gl5, gl6, gl7, gl8, gl9, gr1, gr2, gr3, gr4, gr5, gr6, herow, l2, leadingline, logo, logol, runes, solana, zetachain } from "../assets";
 import para from '../assets/para.json'
 import govt from '../assets/govt.json'
 import dec from '../assets/dec.json'
@@ -81,7 +81,64 @@ function Home() {
                 // markers:1,
             }
         })
+
         gsap.to('.ani-coin-5', {
+            x: '-60vh',
+            y: '60vh',
+            opacity: 0,
+            duration: 6,
+            scrollTrigger: {
+                trigger: '.globe',
+                start: "top 450vh",
+                end: "top 150vh",
+                scrub: 1,
+                // markers:1,
+            }
+        })
+
+        gsap.to('.ani-coin-6', {
+            x: '60vh',
+            y: '60vh',
+            opacity: 0,
+            duration: 6,
+            scrollTrigger: {
+                trigger: '.globe',
+                start: "top 450vh",
+                end: "top 150vh",
+                scrub: 1,
+                // markers:1,
+            }
+        })
+
+        gsap.to('.ani-coin-7', {
+            x: '60vh',
+            y: '60vh',
+            opacity: 0,
+            duration: 6,
+            scrollTrigger: {
+                trigger: '.globe',
+                start: "top 450vh",
+                end: "top 150vh",
+                scrub: 1,
+                // markers:1,
+            }
+        })
+
+        gsap.to('.ani-coin-8', {
+            x: '-60vh',
+            y: '60vh',
+            opacity: 0,
+            duration: 6,
+            scrollTrigger: {
+                trigger: '.globe',
+                start: "top 450vh",
+                end: "top 150vh",
+                scrub: 1,
+                // markers:1,
+            }
+        })
+
+        gsap.to('.ani-coin-9', {
             x: '-60vh',
             y: '60vh',
             opacity: 0,
@@ -338,12 +395,17 @@ function Home() {
                 </div>
                 <div className="w-full flex justify-center"><span className="sm:hidde py-8 text-black text-[10px] sm:text-base font-normal font-['Inter'] tracking-tight">Contract address</span><span className="sm:hidde py-8 text-black text-[10px] sm:text-base font-light font-['Inter'] tracking-tight"> - 0x25574757585885575ef</span></div>
                 <div className="flex w-full justify-center ani-main h-[88vw] sm:h-[105vw] lg:h-[1030px]">
+                    <img src={logo} className="md:w-[75px] md:h-[59px] h-[51px] absolute top-[48%] z-[40]" alt="Logo" />
                     <img src={herow} alt="World" className="globe z-30 ani-world " />
                     <img src={co1} className="z-0 ani-coin-1 ani-coin " alt="co1" />
                     <img src={co2} className="z-0 ani-coin-2 ani-coin " alt="co1" />
                     <img src={co3} className="z-0 ani-coin-3 ani-coin " alt="co1" />
                     <img src={co4} className="z-0 ani-coin-4 ani-coin " alt="co1" />
                     <img src={co5} className="z-0 ani-coin-5 ani-coin " alt="co1" />
+                    <img src={co5} className="z-0 ani-coin-6 ani-coin " alt="co1" />
+                    <img src={co5} className="z-0 ani-coin-7 ani-coin " alt="co1" />
+                    <img src={co5} className="z-0 ani-coin-8 ani-coin " alt="co1" />
+                    <img src={co5} className="z-0 ani-coin-9 ani-coin " alt="co1" />
                 </div>
                 <div className="w-full flex justify-center"><span className="sm:hidde py-8 text-black text-[10px] sm:text-base font-normal font-['Inter'] tracking-tight">Contract address</span><span className="sm:hidde py-8 text-black text-[10px] sm:text-base font-light font-['Inter'] tracking-tight"> - 0x25574757585885575ef</span></div>
             </div>
@@ -369,8 +431,8 @@ function Home() {
                     <div><span className="text-[#ff0025] md:text-[28px] text-[24px] lg:text-[32px] font-extrabold font-['Bricolage Grotesque']">.</span><span className="text-[#444444] md:text-[28px] text-[24px] lg:text-[32px] font-normal font-['Bricolage Grotesque']">Level up</span></div>
                 </div>
                 <div className="discover w-[1173px] max-w-full">
-                    <div className="w-[682px] max-w-full text-[#232323] xl:text-[80px]  lg:text-[55px] md:text-[40px] text-[28px] font-semibold font-['Bricolage Grotesque'] md:block hidden tracking-[3.20px] leading-[1.1]">Connect with V</div>
-                    <div className="w-[682px] max-w-full text-[#232323] xl:text-[80px]  lg:text-[55px] md:text-[40px] text-[28px] font-semibold font-['Bricolage Grotesque'] md:hidden block md:tracking-[2px] tracking-[1.12px] xl:tracking-[3.20px] leading-[1.1]">Take advantage of every chance on the chain</div>
+                    <div className="w-[682px] max-w-full text-[#232323] xl:text-[80px]  lg:text-[55px] md:text-[40px] text-[28px] font-semibold font-['Bricolage Grotesque'] md:block idden tracking-[3.20px] leading-[1.1]">Connect with V</div>
+                    {/* <div className="w-[682px] max-w-full text-[#232323] xl:text-[80px]  lg:text-[55px] md:text-[40px] text-[28px] font-semibold font-['Bricolage Grotesque'] md:hidden block md:tracking-[2px] tracking-[1.12px] xl:tracking-[3.20px] leading-[1.1]">Take advantage of every chance on the chain</div> */}
                 </div>
             </div>
             <div className="holder xl:px-[133px] px-4 md:px-8 w-full overflow-x-hidden  bg-[#FCFCFC]">

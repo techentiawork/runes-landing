@@ -200,6 +200,26 @@
   top: -30%;
 }
 
+.ani-coin-6 {
+  left: 5%;
+  top: -10%;
+}
+
+.ani-coin-7 {
+  left: 5%;
+  top: 20%;
+}
+
+.ani-coin-8 {
+  right: 5%;
+  top: 10%;
+}
+
+.ani-coin-9 {
+  right: 5%;
+  top: 40%;
+}
+
 @media(width<1024px) {
   .ani-coin-4 {
     display: none;
@@ -239,6 +259,22 @@
   .ani-coin-5 {
     right: 5%;
     top: -47%;
+  }
+
+  .ani-coin-6 {
+    display: none;
+  }
+  
+  .ani-coin-7 {
+    display: none;
+  }
+  
+  .ani-coin-8 {
+    display: none;
+  }
+  
+  .ani-coin-9 {
+    display: none;
   }
 
 }
