@@ -365,7 +365,7 @@ function Home() {
     return (
         <div className="w-full bg-[#FCFCFC] overflow-x-hidden" ref={mainRef}>
             <div className="lg:px-16 lg:py-7 py-4 md:px-8 px-4 w-full  bg-[#FCFCFC]">
-                <div className="w-full flex justify-center h-[406.8px] sm:h-[375.25px] lg:h-[433.2px] ">
+                <div className="w-full flex justify-center h-[535px] xxs:h-[496.8px] xs:h-[365.25px] md:h-[395.25px] lg:h-[483.2px] ">
                     <div className="w-[668px] max-w-full flex-col flex items-center gap-4">
                         <div className=" pt-4 sm:border-t-[1px] border-[rgba(0,0,0,0.04)] w-[422px] max-w-full flex justify-center">
                             <div className="w-[154.28px] max-w-full h-[30px] bg-[#fcfcfc] flex justify-center items-center rounded-[100px] shadow border border-[#dadada]">
@@ -381,7 +381,7 @@ function Home() {
                                 </div>
                             </div>
                             <div className="flex-col justify-start items-center gap-4 inline-flex">
-                                <div className="text-center text-[#444444] md:text-[15px] text-[12px] lg:text-lg font-normal font-['Inter'] md:w-full w-[296px] leading-relaxed py-3 lg:py-4 border-b-[1px] border-[rgba(0,0,0,0.08)]">The project follows the title character and protagonist, V, an anarchist revolutionary dressed in a Guy Fawkes mask, as he begins an elaborate and theatrical revolutionist campaign to kill his former captors, bring down the fascist state, and convince the people to abandon fascism. RunesBridge is dead, long live RunesBridge-V
+                                <div className="text-center text-[#444444] md:text-[15px] text-[12px] lg:text-lg font-normal font-['Inter'] xs:w-full w-[264px] leading-relaxed py-3 lg:py-4 border-b-[1px] border-[rgba(0,0,0,0.08)]">I am V, a symbol of resistance, a force born from the ashes of tyranny. My face, though hidden behind this mask, carries the weight of an idea. An idea that cannot be silenced, not by oppression, not by fear. I am the embodiment of revolution, and my campaign, as theatrical as it may seem, is a carefully orchestrated symphony of justice. Those who once held me captive will face their reckoning, and the fascist state that strangles freedom will crumble before the will of the people. RunesBridge is dead. Long live RunesBridge-V.
                                 </div>
                                 <div className="justify-start items-center gap-4 flex xxs:flex-row flex-col">
                                     <div className="wallet-btn cursor-pointer">Buy now</div>
@@ -455,11 +455,7 @@ function Home() {
                     <div className="runes-left sm:w-[636px] md:w-full xs:w-full w-[291px] max-w-full flex flex-col gap-4">
                         <div className="w-[686px] max-w-full text-[#232323] lg:text-[48px] md:text-[36px] sm:text-[30px] text-[24px] xl:text-6xl font-semibold font-['Bricolage Grotesque'] tracking-[0.96px] md:tracking-widest">Powerful and Solid Bridging Mechanism</div>
                         <div className="w-[636px] max-w-full text-[#bcbcbc] lg:text-[26px] md:text-[20px] text-[14px] sm:text-[18px] xl:text-[32px] font-normal font-['Inter']">
-                            <p>RunesBridge-V’s Dual-Chain Tokenomics Framework will offer a comprehensive protocol for launching and managing dual-chain tokens, creating an interoperable token economy that maximizes liquidity, community engagement, distribution and security.
-                            </p>
-                            <p>RunesBridge-V also boasts “V-Governance” which delivers a decentralized, transparent, and efficient governance framework. Governance is the elixir of life, it is how a project can become immortal and how a degen knows he is safe. Governance rewards active participation, aligns project development with community interests. Governance tells you where the keys are and welcomes you to peak behind the curtain.
-                            </p>       <p>V says welcome home.</p>
-                            <p>Get ready for a world powered by RunesBridge-V</p>
+                            <p>The mission of RBV is to find the best and most attractive projects that we feel contribute positively to the space and help them launch with best practices to ensure rapid and secure growth after a dual chain launch.</p>
                         </div>
                     </div>
                 </div>
@@ -582,7 +578,7 @@ function Home() {
                         <div className="hbc flex justify-between w-full md:px-16 px-4 lg:px-[120px] min-h-[158px] lg:min-h-[560px] items-center rounded-[20px] bg-[#F9FAF9] py-4 lg:order-1">
                             <div className="w-[60%] md:w-full">
                                 <div className="text-black lg:text-[50px] md:text-[38px] sm:text-[24px] text-[18px] xl:text-[60px] font-[600] md:font-bold font-['Bricolage Grotesque'] pb-6 leading-[1.2]">An Incubator:</div>
-                                <div className="max-w-[642px] text-black lg:text-[28px] md:text-[22px] sm:text-[16px] text-[12px] xl:text-[34.88px] font-normal font-['Inter'] leading-[1.3]">Advisors help launch new projects dual-chain.</div>
+                                <div className="max-w-[642px] text-black lg:text-[28px] md:text-[22px] sm:text-[16px] text-[12px] xl:text-[34.88px] font-normal font-['Inter'] leading-[1.3]">Our incubator, led by expert advisors, teaches and implements dual-chain launches, governance models, airdrops, and liquidity bootstrapping, ensuring projects follow best practices and are ready to scale across multiple blockchains from day one.</div>
                             </div>
                             <div className="w-[35%] flex justify-center ">
                                 <div className="w-[80%] lg:w-[280px]">
@@ -593,7 +589,7 @@ function Home() {
                         <div className="hbc flex justify-between w-full md:px-16 px-4 lg:px-[120px] min-h-[158px] lg:min-h-[560px] items-center rounded-[20px] bg-[#F9FAF9] py-4 lg:order-1">
                             <div className="w-[60%] md:w-full">
                                 <div className="text-black lg:text-[50px] md:text-[38px] sm:text-[24px] text-[18px] xl:text-[60px] font-[600] md:font-bold font-['Bricolage Grotesque'] pb-6 leading-[1.2]">Decentralized Business Development Team:</div>
-                                <div className="max-w-[642px] text-black lg:text-[28px] md:text-[22px] sm:text-[16px] text-[12px] xl:text-[34.88px] font-normal font-['Inter'] leading-[1.3]">It will be easier to use and more accessible with an intuitive interface, which will help the organic industry grow.</div>
+                                <div className="max-w-[642px] text-black lg:text-[28px] md:text-[22px] sm:text-[16px] text-[12px] xl:text-[34.88px] font-normal font-['Inter'] leading-[1.3]">Our decentralized business development “team”, made up of community members, targets partners for bridge integration, runs targeted marketing for project launches, and identifies projects that will benefit from governance and airdrop to our community. Contributors earn rewards, ensuring a community-driven approach to growth.</div>
                             </div>
                             <div className="w-[35%] flex justify-center ">
                                 <div className="w-[80%] lg:w-[280px]">
@@ -615,7 +611,7 @@ function Home() {
                         <div className="hbc flex justify-between w-full md:px-16 px-4 lg:px-[120px] min-h-[158px] lg:min-h-[560px] items-center rounded-[20px] bg-[#F9FAF9] py-4 lg:order-1">
                             <div className="w-[60%] md:w-full">
                                 <div className="text-black lg:text-[50px] md:text-[38px] sm:text-[24px] text-[18px] xl:text-[60px] font-[600] md:font-bold font-['Bricolage Grotesque'] pb-6 leading-[1.2]">Governance Council:</div>
-                                <div className="max-w-[642px] text-black lg:text-[28px] md:text-[22px] sm:text-[16px] text-[12px] xl:text-[34.88px] font-normal font-['Inter'] leading-[1.3]">	Governance Council:Makes decisions and manages all high-level needs of the project to ensure long-term autonomy, growth, and success.</div>
+                                <div className="max-w-[642px] text-black lg:text-[28px] md:text-[22px] sm:text-[16px] text-[12px] xl:text-[34.88px] font-normal font-['Inter'] leading-[1.3]">Starting before the TGE and opening the door for anyone to participate in the future of a project. True autonomous decentralization and long term security, our governance framework is a new way forward for layer 2 projects.</div>
                             </div>
                             <div className="flex justify-center w-[35%] ">
                                 <div className="w-[80%] lg:w-[280px]">
@@ -628,7 +624,7 @@ function Home() {
                         <div className="hbc flex justify-between w-full md:px-16 px-4 lg:px-[120px] min-h-[158px] lg:min-h-[560px] items-center rounded-[20px] bg-[#F9FAF9] py-4 lg:order-1">
                             <div className="w-[60%] md:w-full">
                                 <div className="text-black lg:text-[50px] md:text-[38px] sm:text-[24px] text-[18px] xl:text-[60px] font-[600] md:font-bold font-['Bricolage Grotesque'] pb-6 leading-[1.2]">Decentralized Bridge Layer</div>
-                                <div className="max-w-[642px] text-black lg:text-[28px] md:text-[22px] sm:text-[16px] text-[12px] xl:text-[34.88px] font-normal font-['Inter'] leading-[1.3]">Decentralized Bridge Layer: Designed to connect different blockchains to unlock liquidity, expand communities, and support growth.</div>
+                                <div className="max-w-[642px] text-black lg:text-[28px] md:text-[22px] sm:text-[16px] text-[12px] xl:text-[34.88px] font-normal font-['Inter'] leading-[1.3]">A bridge to compliment future products and services for launching and managing dual-chain tokens, creating and supporting interoperable tokens and tools to maximize liquidity, community engagement, distribution, and security.</div>
                             </div>
                             <div className="flex justify-center w-[35%] ">
                                 {/* <img src={anism1} alt="Ani1" className="lg:hidden w-full" /> */}
