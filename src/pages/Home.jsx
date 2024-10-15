@@ -395,17 +395,17 @@ function Home() {
                 </div>
                 <div className="w-full flex justify-center"><span className="sm:hidde py-8 text-black text-[10px] sm:text-base font-normal font-['Inter'] tracking-tight">Contract address</span><span className="sm:hidde py-8 text-black text-[10px] sm:text-base font-light font-['Inter'] tracking-tight"> - 0x25574757585885575ef</span></div>
                 <div className="flex w-full justify-center ani-main h-[88vw] sm:h-[105vw] lg:h-[1030px]">
-                    <img src={logo} className="md:w-[75px] md:h-[59px] h-[51px] absolute top-[48%] z-[40]" alt="Logo" />
+                    {/* <img src={logo} className="md:w-[75px] md:h-[59px] h-[51px] absolute top-[48%] z-[40]" alt="Logo" /> */}
                     <img src={herow} alt="World" className="globe z-30 ani-world " />
                     <img src={co1} className="z-0 ani-coin-1 ani-coin " alt="co1" />
                     <img src={co2} className="z-0 ani-coin-2 ani-coin " alt="co1" />
                     <img src={co3} className="z-0 ani-coin-3 ani-coin " alt="co1" />
                     <img src={co4} className="z-0 ani-coin-4 ani-coin " alt="co1" />
                     <img src={co5} className="z-0 ani-coin-5 ani-coin " alt="co1" />
-                    <img src={co5} className="z-0 ani-coin-6 ani-coin " alt="co1" />
+                    {/* <img src={co5} className="z-0 ani-coin-6 ani-coin " alt="co1" />
                     <img src={co5} className="z-0 ani-coin-7 ani-coin " alt="co1" />
                     <img src={co5} className="z-0 ani-coin-8 ani-coin " alt="co1" />
-                    <img src={co5} className="z-0 ani-coin-9 ani-coin " alt="co1" />
+                    <img src={co5} className="z-0 ani-coin-9 ani-coin " alt="co1" /> */}
                 </div>
                 <div className="w-full flex justify-center"><span className="sm:hidde py-8 text-black text-[10px] sm:text-base font-normal font-['Inter'] tracking-tight">Contract address</span><span className="sm:hidde py-8 text-black text-[10px] sm:text-base font-light font-['Inter'] tracking-tight"> - 0x25574757585885575ef</span></div>
             </div>
